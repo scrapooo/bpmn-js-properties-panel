@@ -314,6 +314,11 @@
                     "name": "priority",
                     "isAttr": true,
                     "type": "String"
+                },
+                {
+                    "name": "category",
+                    "isAttr": true,
+                    "type": "String"
                 }
             ]
         },
@@ -789,17 +794,14 @@
             "name": "EventListener",
             "superClass": ["Element"],
             "meta": {
-                "allowedIn": [
-                    "bpmn:SubProcess",
-                    "bpmn:Process"
-                ]
+                "allowedIn": ["bpmn:SubProcess", "bpmn:Process"]
             },
             "properties": [
                 {
                     "name": "expression",
                     "isAttr": true,
                     "type": "String"
-                }, 
+                },
                 {
                     "name": "events",
                     "isAttr": true,
